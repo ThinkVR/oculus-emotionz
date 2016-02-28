@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B6726A26-EBED-CF6E-C247-E696F22BB38B}</ProjectGuid>
+    <ProjectGuid>{CAE2B965-41F0-90CD-D143-8DCD3E0332C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -86,10 +86,13 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="SharpOSC">
+ <HintPath>/Users/kevinyang/hacktech/oculus-emotions/Assets/OVR/Scripts/SharpOSC.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{4469B56D-2EEE-D231-AA30-79C4F2266F95}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{BB9EC1FD-26AC-63FB-8D33-C043B96A37A7}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
