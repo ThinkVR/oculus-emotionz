@@ -1,6 +1,6 @@
 Muse/Unity SDK Demo
 ========
 
-This is a demo to visualize emotions in Oculus based on brainwaves from the Muse headbands.
+This is a demo to visualize mental state in Oculus based on EEG waves from Muse headband.
 
-created at HackTech
+created at HackTech 2016.
